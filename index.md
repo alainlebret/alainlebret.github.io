@@ -1,6 +1,4 @@
 ---
-layout: post
-title: Un peu d'informatique
 theme: jekyll-theme-midnight
 ---
 
