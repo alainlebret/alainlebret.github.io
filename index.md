@@ -1,3 +1,9 @@
+---
+layout: post
+title: Un peu d'informatique
+theme: jekyll-theme-midnight
+---
+
 ## Homepage of Alain Lebret
 
 ### About me
