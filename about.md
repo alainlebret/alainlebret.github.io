@@ -1,7 +1,3 @@
----
-theme: jekyll-theme-midnight
----
-
 ## About me
 
 I have been teaching computer science for twenty years, mainly algorithmic and programming. 
