@@ -1,6 +1,6 @@
-# Homepage of Alain Lebret
+## Homepage of Alain Lebret
 
-## About me
+### About me
 
 I have been teaching computer science for twenty years, mainly algorithmic and programming. 
 Now, I work as a lecturer at [ENSICAEN](https://www.ensicaen.fr/)" (a french national 
@@ -12,5 +12,5 @@ understanding of biological and physiological mechanisms.
 
 My other interests are in the areas of biology, ancient and medieval history, and geopolitics.
 
-## Contact me ...
+### Contact me ...
 ENSICAEN -- 6 Boulevard Maréchal Juin, 14000 Caen, France
