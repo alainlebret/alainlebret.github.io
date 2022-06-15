@@ -1,6 +1,3 @@
----
-theme: jekyll-theme-midnight
----
 
 ## About me
 
