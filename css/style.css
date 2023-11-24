@@ -1,0 +1,254 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px 0;
+}
+
+#intro {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#about {
+    background-color: #fff;
+}
+
+#footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+/* Add this section to style.css */
+#teaching {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+}
+
+.teaching-item {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.teaching-item h3 {
+    margin-bottom: 10px;
+}
+
+/* Additional adjustments for responsive design */
+@media screen and (max-width: 768px) {
+    .teaching-item {
+        padding: 10px;
+    }
+}
+
+/* Add these styles to style.css */
+#portfolio, #teaching {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+}
+
+.project, .research, .teaching-item {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.project h3, .research h4, .teaching-item h3 {
+    margin-bottom: 10px;
+}
+
+/* Additional adjustments for responsive design */
+@media screen and (max-width: 768px) {
+    .project, .research, .teaching-item {
+        padding: 10px;
+    }
+}
+
+/* Typography for small screens
+[fr] http://www.alsacreations.com/astuce/lire/1177 */
+@media (max-width: 640px) {
+  /* Set a maximum width of 100% for potentially problematic elements */
+  img,
+  table,
+  td,
+  blockquote,
+  code,
+  pre,
+  textarea,
+  input,
+  iframe,
+  object,
+  embed,
+  video {
+    max-width: 100% !important;
+  }
+  /* long words */
+  textarea,
+  table,
+  td,
+  th,
+  code,
+  samp {
+    word-wrap: break-word;
+  }
+}
+/* Print styles from HTML5 Boilerplate
+Inlined to avoid required HTTP connection: h5bp.com/r */
+@media print {
+  pre,
+  blockquote {
+    page-break-inside: avoid;
+  }
+  thead {
+    display: table-header-group;
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  @page  {
+    margin: 2cm .5cm;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+
+/* style effects */
+img.round {
+  border-radius: 5px;
+}
+img.circle {
+  border-radius: 50%;
+}
+img.border {
+  padding: 4px;
+  background-color: #fff;
+  border: 1px solid #bbb;
+}
+img.shadow {
+  box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7), -1px 2px 20px rgba(255, 255, 255, 0.6) inset;
+}
+
+a {
+  background: transparent;
+  -webkit-text-decoration-skip: objects;
+  color: inherit;
+}
+a:visited {
+  color: inherit;
+}
+a:focus {
+  /* http://www.outlinenone.com
+  /* outline: thin dotted;
+  /* Remember to define focus styles! */
+
+}
+a:hover {
+  outline: 0;
+  cursor: pointer;
+}
+a:active {
+  outline: 0;
+}
+a:after,
+a:before,
+a small {
+  font-size: 90%;
+  opacity: .9;
+}
+
+/* Add these styles to style.css */
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.success-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
